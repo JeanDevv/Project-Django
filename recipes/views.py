@@ -5,7 +5,7 @@ def home(request):
     return render(request, 'recipes/home.html')
 
 def sobre(request):
-    return HttpResponse('Sobre')
+    return render(request, 'recipes/sobre.html')
 
 def contato(request):
-    return HttpResponse('Contato')
+    return render(request, 'recipes/contato.html')
